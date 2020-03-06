@@ -23,7 +23,6 @@ let results = '';
     } else {
       for(let i = 0; i <katzDeliLine.length; i++){
       results += `${[i+1]}. ${katzDeliLine[i]}, `;
-          //console.log(`The line is currently: ${[i+1]} ${katzDeliLine[i]}`);
             }
             return `The line is currently: ${results}`;
     }
