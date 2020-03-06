@@ -22,8 +22,12 @@ let results = '';
       return `The line is currently empty.`;
     } else {
       for(let i = 0; i <katzDeliLine.length; i++){
+        if(i === katzDeliLine.length - 1){
+          results += `${i+1}. ${katzDeliLine[i]}`;
+        } else {
       results += `${[i+1]}. ${katzDeliLine[i]}, `;
-            }
+    }
+  }
             return `The line is currently: ${results}`;
     }
   }
