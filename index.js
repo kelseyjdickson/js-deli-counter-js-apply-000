@@ -38,7 +38,7 @@ function nowServing(katzDeliLine){
         return `The line is currently empty.`;
       } else {
         for(let i = 0; i <katzDeliLine.length; i++){
-        results += `, ${katzDeliLine[i]}`  
+        results += `, ${katzDeliLine[1]}`  
     }
               return  results;
       }
